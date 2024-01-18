@@ -9,6 +9,7 @@ class DataIngestion:
     def __init__(self, config: DataIngestionConfig):
         self.config = config
 
+
     
     def download_file(self)-> str:
         '''
@@ -16,6 +17,7 @@ class DataIngestion:
         '''
 
         try: 
+ 
             dataset_url = self.config.source_URL
             zip_download_dir = self.config.local_data_file
             os.makedirs("artifacts/data_ingestion", exist_ok=True)
