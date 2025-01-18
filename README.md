@@ -1,5 +1,5 @@
 
-# Kidney Tumor Detection System
+# Kidney Disease Classification
 
 ## Dataset
 - **Dataset Link**: [Kidney Disease Dataset](https://drive.google.com/file/d/1wmWnb1EPs3sN9Cy1KM28mOuTs1BkbjN2/view?usp=sharing)
